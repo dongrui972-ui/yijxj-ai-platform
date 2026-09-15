@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI能力项目库｜人工智能+软件产业生态联盟</title>
+  <meta name="description" content="统一展示一级芯界的人工智能应用研究项目与工程实施能力，并提供可核验的技术路线、成熟度和交付边界。">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231668ff'/%3E%3Cpath d='M14 43 26 17h8L22 43zm20 0 12-26h7L41 43z' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./assets/styles.css?v=capability-hub4">
+</head>
+<body data-page="empowerment" class="capability-hub-page">
+  <div id="siteHeader"></div>
+
+  <main id="main">
+    <section class="capability-hub-section" id="research-projects">
+      <span class="section-anchor-alias" id="tech-catalog" aria-hidden="true"></span>
+      <span class="section-anchor-alias" id="technology" aria-hidden="true"></span>
+      <span class="section-anchor-alias" id="transformation" aria-hidden="true"></span>
+      <span class="section-anchor-alias" id="joint-capability" aria-hidden="true"></span>
+      <span class="section-anchor-alias" id="security" aria-hidden="true"></span>
+      <span class="section-anchor-alias" id="compute" aria-hidden="true"></span>
+
+      <div class="page-width">
+        <header class="capability-hub-head">
+          <div>
+            <span>一级芯界 AI 项目库</span>
+            <h1>AI 能力、行业应用与研究项目</h1>
+            <p>应用类回答企业可以解决什么问题，工程类说明系统如何可靠实现。每项均公开当前成熟度、验证方法和交付边界。</p>
+          </div>
+          <dl class="capability-hub-stats" aria-label="项目分类数量">
+            <div><dt data-kind-count="all">38</dt><dd>全部项目</dd></div>
+            <div><dt data-kind-count="application">20</dt><dd>应用类</dd></div>
+            <div><dt data-kind-count="engineering">18</dt><dd>工程类</dd></div>
+          </dl>
+        </header>
+
+        <section class="capability-browser" aria-label="AI项目浏览器">
+          <div class="capability-browser-controls">
+            <div class="capability-kind-switch" role="group" aria-label="切换项目类型">
+              <button class="is-active" type="button" data-catalog-kind="all" aria-pressed="true"><span>全部</span><b data-kind-count="all">38</b></button>
+              <button type="button" data-catalog-kind="application" aria-pressed="false"><span>应用类</span><b data-kind-count="application">20</b></button>
+              <button type="button" data-catalog-kind="engineering" aria-pressed="false"><span>工程类</span><b data-kind-count="engineering">18</b></button>
+            </div>
+            <div class="capability-filter-tools">
+              <label class="capability-search"><span>搜索项目</span><input type="search" data-catalog-search placeholder="搜索问题、能力或成果" autocomplete="off"></label>
+              <label class="capability-category"><span>项目方向</span><select data-catalog-category aria-label="选择项目方向"><option value="all">全部方向</option></select></label>
+            </div>
+          </div>
+
+          <div class="capability-results-head">
+            <div><strong data-catalog-results-title>全部项目</strong><span data-catalog-results-hint>全部方向 · 按当前公开成熟度展示</span></div>
+            <b><em data-catalog-results-count>38</em> 项</b>
+          </div>
+
+          <div class="capability-project-grid" data-catalog-list aria-live="polite"></div>
+          <div class="capability-empty" data-catalog-empty hidden><strong>没有找到匹配项目</strong><span>请更换关键词、项目类型或方向。</span></div>
+          <p class="capability-truth-note"><b>公开口径：</b>“研究、预研、方案、原型、验证”均表示相应成熟阶段，不等同于客户正式上线或商业化业绩；只有存在可核对实施材料的项目才标注为“已部署记录”。</p>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <div id="siteFooter"></div>
+  <script src="./assets/app.js?v=capability-hub4"></script>
+  <script src="./assets/research-projects.js?v=capability-hub4"></script>
+  <script src="./assets/engineering-projects.js?v=capability-hub4"></script>
+  <script src="./assets/capability-catalog.js?v=capability-hub4"></script>
+</body>
+</html>

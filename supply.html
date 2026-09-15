@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>人工智能项目集市｜人工智能+软件产业生态联盟</title>
+  <meta name="description" content="面向全国中小企业的常态化人工智能项目集市，统一汇集企业需求、平台方案、真实案例与AI资源服务。">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231668ff'/%3E%3Cpath d='M14 43 26 17h8L22 43zm20 0 12-26h7L41 43z' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body data-page="supply">
+  <div id="siteHeader"></div>
+  <main id="main">
+    <section class="unified-market-section" id="hall">
+      <div class="page-width">
+        <div class="market-program-notice" id="free-program">
+          <b>免费计划</b><span>首期10个AI共创名额征集中</span><a href="./market.html">申请与详情 →</a>
+        </div>
+
+        <div class="market-repository" aria-labelledby="marketTitle">
+          <h1 class="sr-only" id="marketTitle">人工智能项目集市</h1>
+
+          <div class="market-type-tabs" role="group" aria-label="按项目类型筛选">
+            <button class="is-active" type="button" data-market-type-filter="all"><span>全部</span><b>21</b></button>
+            <button type="button" data-market-type-filter="demand"><span>需求</span><b>6</b></button>
+            <button type="button" data-market-type-filter="solution"><span>方案</span><b>6</b></button>
+            <button type="button" data-market-type-filter="case"><span>案例</span><b>6</b></button>
+            <button type="button" data-market-type-filter="resource"><span>资源</span><b>3</b></button>
+          </div>
+
+          <div class="market-compact-toolbar">
+            <label class="market-unified-search"><span class="sr-only">搜索项目</span><input type="search" data-market-search placeholder="搜索项目" aria-label="搜索业务问题、行业、AI能力或项目编号"></label>
+            <details class="market-filter-menu">
+              <summary>筛选</summary>
+              <div class="market-filter-popover">
+                <label><span>状态</span><select data-market-status-filter aria-label="筛选状态"><option value="all">全部状态</option><option value="open">等待对接</option><option value="active">对接或验证中</option><option value="reference">可直接参考</option><option value="completed">已完成或已落地</option><option value="planned">规划中</option></select></label>
+                <label><span>行业</span><select data-market-industry-filter aria-label="筛选行业"><option value="all">全部行业</option><option value="manufacturing">生产制造</option><option value="service">客户与企业服务</option><option value="commerce">商贸与供应链</option><option value="management">企业管理</option><option value="agriculture">农业</option><option value="education">教育后勤</option><option value="software">软件研发</option><option value="infrastructure">AI基础资源</option></select></label>
+                <label><span>排序</span><select data-market-sort aria-label="项目排序"><option value="recommended">推荐排序</option><option value="type">按项目类型</option><option value="status">按状态</option><option value="title">按标题</option></select></label>
+                <button type="button" data-market-clear>清除筛选</button>
+              </div>
+            </details>
+            <a class="market-new-demand" href="./apply.html">发布需求</a>
+          </div>
+
+          <div class="market-selection-notice" data-market-selection hidden>已选 0 条待响应需求</div>
+
+          <div class="market-repo-list" data-market-list aria-live="polite">
+            <article class="market-repo-item" data-market-item data-market-type="demand" data-market-status="open" data-market-industry="manufacturing" data-market-order="1" data-market-title="生产线外观缺陷靠人工抽检，漏检后才发现" data-market-search="D001 生产制造 视觉质检 缺陷识别 图像 场景验证">
+              <div class="market-item-visual is-demand" aria-hidden="true"><b>D</b><span>需求</span></div>
+              <div class="market-item-content"><div class="market-item-kicker"><span>#D001</span><b>企业需求</b><em class="is-open">等待响应</em></div><h3>生产线外观缺陷靠人工抽检，漏检后才发现</h3><p>希望用图像识别辅助发现外观缺陷，并留下可复核、可追溯的检测记录。</p><div class="market-item-labels"><span>生产制造</span><span>视觉识别</span><span>场景验证</span></div><div class="market-item-meta"><span><b>现有基础</b> 样本与拍摄条件待确认</span><span><b>下一步</b> 小范围可行性验证</span></div></div>
+              <div class="market-item-action"><small>今日更新</small><button type="button" data-market-select aria-pressed="false">我能响应</button></div>
+            </article>
+
+            <article class="market-repo-item" data-market-item data-market-type="demand" data-market-status="active" data-market-industry="service" data-market-order="2" data-market-title="客服翻找多套资料，回复慢而且口径不统一" data-market-search="D002 客户服务 企业知识库 智能问答 客服 RAG">
+              <div class="market-item-visual is-demand" aria-hidden="true"><b>D</b><span>需求</span></div>
+              <div class="market-item-content"><div class="market-item-kicker"><span>#D002</span><b>企业需求</b><em class="is-active">对接中</em></div><h3>客服翻找多套资料，回复慢而且口径不统一</h3><p>希望整合产品资料和常见问题，让客服快速找到有出处、可核对的答案。</p><div class="market-item-labels"><span>客户服务</span><span>知识库</span><span>智能问答</span></div><div class="market-item-meta"><span><b>现有基础</b> 已有企业文档</span><span><b>下一步</b> 验证检索准确性和出处</span></div></div>
+              <div class="market-item-action"><small>昨日更新</small><button type="button" data-market-select aria-pressed="false">我能响应</button></div>
+            </article>
+
+            <article class="market-repo-item" data-market-item data-market-type="demand" data-market-status="open" data-market-industry="management" data-market-order="3" data-market-title="合同和业务材料逐份审阅，关键信息容易漏看" data-market-search="D003 企业管理 合同 文档 审核 条款 知识提取">
+              <div class="market-item-visual is-demand" aria-hidden="true"><b>D</b><span>需求</span></div>
+              <div class="market-item-content"><div class="market-item-kicker"><span>#D003</span><b>企业需求</b><em class="is-open">等待响应</em></div><h3>合同和业务材料逐份审阅，关键信息容易漏看</h3><p>辅助提取条款、归纳要点并提示需要人工复核的位置，减少重复整理。</p><div class="market-item-labels"><span>企业管理</span><span>文档处理</span><span>知识提取</span></div><div class="market-item-meta"><span><b>使用对象</b> 企业业务人员</span><span><b>安全要求</b> 企业内部使用</span></div></div>
+              <div class="market-item-action"><small>2天前更新</small><button type="button" data-market-select aria-pressed="false">我能响应</button></div>
+            </article>
+
+            <article class="market-repo-item" data-market-item data-market-type="demand" data-market-status="active" data-market-industry="commerce" data-market-order="4" data-market-title="销量一变就缺货或积压，补货仍然主要靠经验" data-market-search="D004 商贸零售 销售预测 库存 补货 数据分析">
+              <div class="market-item-visual is-demand" aria-hidden="true"><b>D</b><span>需求</span></div>
+              <div class="market-item-content"><div class="market-item-kicker"><span>#D004</span><b>企业需求</b><em class="is-active">对接中</em></div><h3>销量一变就缺货或积压，补货仍然主要靠经验</h3><p>结合历史销售与库存数据识别趋势，为备货、周转和异常提醒提供参考。</p><div class="market-item-labels"><span>商贸零售</span><span>数据分析</span><span>经营辅助</span></div><div class="market-item-meta"><span><b>数据来源</b> 现有业务系统</span><span><b>下一步</b> 确认字段质量与接口</span></div></div>
+              <div class="market-item-action"><small>3天前更新</small><button type="button" data-market-select aria-pressed="false">我能响应</button></div>
+            </article>
+
+            <article class="market-repo-item" data-market-item data-market-type="demand" data-market-status="open" data-market-industry="service" data-market-order="5" data-market-title="服务电话数量太多，管理人员无法逐通复盘" data-market-search="D005 客户服务 通话 录音 摘要 语音处理 服务质检">
+              <div class="market-item-visual is-demand" aria-hidden="true"><b>D</b><span>需求</span></div>
+              <div class="market-item-content"><div class="market-item-kicker"><span>#D005</span><b>企业需求</b><em class="is-open">等待响应</em></div><h3>服务电话数量太多，管理人员无法逐通复盘</h3><p>把通话转成结构化摘要，辅助检查服务流程并沉淀高频问题。</p><div class="market-item-labels"><span>客户服务</span><span>语音处理</span><span>服务质检</span></div><div class="market-item-meta"><span><b>数据类型</b> 企业服务录音</span><span><b>下一步</b> 确认规模与授权边界</span></div></div>
+              <div class="market-item-action"><small>4天前更新</small><button type="button" data-market-select aria-pressed="false">我能响应</button></div>
+            </article>
+
+            <article class="market-repo-item" data-market-item data-market-type="demand" data-market-status="completed" data-market-industry="management" data-market-order="6" data-market-title="多张经营报表反复复制，发现问题时已经晚了" data-market-search="D006 企业管理 报表 经营分析 自动生成 数据问答">
+              <div class="market-item-visual is-demand" aria-hidden="true"><b>D</b><span>需求</span></div>
+              <div class="market-item-content"><div class="market-item-kicker"><span>#D006</span><b>企业需求</b><em class="is-completed">完成对接</em></div><h3>多张经营报表反复复制，发现问题时已经晚了</h3><p>汇总多来源经营数据，自动生成管理摘要，并支持查询重点指标变化。</p><div class="market-item-labels"><span>企业管理</span><span>报表生成</span><span>数据问答</span></div><div class="market-item-meta"><span><b>系统情况</b> 数据来自多个来源</span><span><b>对接结果</b> 双方已确认并归档</span></div></div>
+              <div class="market-item-action"><small>7天前更新</small><span class="market-static-action">本轮已完成</span></div>
+            </article>
+
+            <article class="market-repo-item" id="project-market" data-market-item data-market-type="solution" data-market-status="active" data-market-industry="agriculture" data-market-order="7" data-market-title="无人农场：从感知到处方再到执行反馈" data-market-search="S001 智慧农业 无人农场 数字孪生 多智能体 水肥 植保">
+              <div class="market-item-visual is-solution" aria-hidden="true"><b>S</b><span>方案</span></div>
+              <div class="market-item-content"><div class="market-item-kicker"><span>#S001</span><b>平台方案</b><em class="is-active">试验验证</em></div><h3>无人农场：从感知到处方再到执行反馈</h3><p>融合卫星、无人机、传感器和农机数据，用农业大模型生成水肥、植保及巡田任务。</p><div class="market-item-labels"><span>智慧农业</span><span>数字孪生</span><span>多智能体</span></div><div class="market-item-meta"><span><b>已有证据</b> 800亩棉田试验记录</span><span><b>对接方向</b> 完整生育季规模验证</span></div></div>
+              <div class="market-item-action"><small>方案材料</small><a href="./apply.html">提交同类需求</a></div>
+            </article>
+
+            <article class="market-repo-item" data-market-item data-market-type="solution" data-market-status="reference" data-market-industry="management" data-market-order="8" data-market-title="周会任务智能体：会议纪要直接进入执行" data-market-search="S002 企业管理 智能体 周会 任务 会议纪要 飞书">
+              <div class="market-item-visual is-solution" aria-hidden="true"><b>S</b><span>方案</span></div>
+              <div class="market-item-content"><div class="market-item-kicker"><span>#S002</span><b>平台方案</b><em class="is-reference">已部署</em></div><h3>周会任务智能体：会议纪要直接进入执行</h3><p>解析会议纪要，自动拆分责任人、期限和优先级，并生成可持续更新的任务看板。</p><div class="market-item-labels"><span>企业管理</span><span>智能体</span><span>协同办公</span></div><div class="market-item-meta"><span><b>已有证据</b> 两套实例内部部署</span><span><b>适合</b> 周会频繁的项目团队</span></div></div>
+              <div class="market-item-action"><small>能力材料</small><a href="./apply.html">提交同类需求</a></div>
+            </article>
+
+            <article class="market-repo-item" data-market-item data-market-type="solution" data-market-status="reference" data-market-industry="commerce" data-market-order="9" data-market-title="团餐供应链：菜单、比价、质检、库存和结算贯通" data-market-search="S003 团餐 供应链 菜单 比价 质检 库存 结算 中央厨房">
+              <div class="market-item-visual is-solution" aria-hidden="true"><b>S</b><span>方案</span></div>
+              <div class="market-item-content"><div class="market-item-kicker"><span>#S003</span><b>平台方案</b><em class="is-reference">交互原型</em></div><h3>团餐供应链：菜单、比价、质检、库存和结算贯通</h3><p>按菜单计算采购量并完成供应商选择、到货质检、入库、对账和评分的流程联动。</p><div class="market-item-labels"><span>团餐供应链</span><span>业务系统</span><span>流程智能</span></div><div class="market-item-meta"><span><b>已有证据</b> 六角色、八步交互原型</span><span><b>能力边界</b> 尚未接入真实ERP</span></div></div>
+              <div class="market-item-action"><small>原型材料</small><a href="./apply.html">申请原型试点</a></div>
+            </article>
+
+            <article class="market-repo-item" data-market-item data-market-type="solution" data-market-status="reference" data-market-industry="education" data-market-order="10" data-market-title="校园食堂：临期、冷链和领料批次可追溯" data-market-search="S004 校园 食堂 食品安全 临期 冷链 领料 仓储">
+              <div class="market-item-visual is-solution" aria-hidden="true"><b>S</b><span>方案</span></div>
+              <div class="market-item-content"><div class="market-item-kicker"><span>#S004</span><b>平台方案</b><em class="is-reference">方案设计</em></div><h3>校园食堂：临期、冷链和领料批次可追溯</h3><p>一物一码记录供应商、质检、温度和领用信息，联动临期预警、库存与扫码盘点。</p><div class="market-item-labels"><span>教育后勤</span><span>食品安全</span><span>仓储追溯</span></div><div class="market-item-meta"><span><b>已有证据</b> 学校食堂专属业务方案</span><span><b>能力边界</b> 暂无正式部署记录</span></div></div>
+              <div class="market-item-action"><small>方案材料</small><a href="./apply.html">提交食堂需求</a></div>
+            </article>
+
+            <article class="market-repo-item" data-market-item data-market-type="solution" data-market-status="reference" data-market-industry="management" data-market-order="11" data-market-title="经营分析：扫描件、表格和Excel进入可复核分析" data-market-search="S005 经营分析 文档智能 OCR 表格 Excel 报告">
+              <div class="market-item-visual is-solution" aria-hidden="true"><b>S</b><span>方案</span></div>
+              <div class="market-item-content"><div class="market-item-kicker"><span>#S005</span><b>平台方案</b><em class="is-reference">产品原型</em></div><h3>经营分析：扫描件、表格和Excel进入可复核分析</h3><p>通过OCR和版面理解还原表格，完成字段校对、趋势分析、图表与报告生成。</p><div class="market-item-labels"><span>经营分析</span><span>文档智能</span><span>OCR</span></div><div class="market-item-meta"><span><b>已有证据</b> V1.0手册和完整界面</span><span><b>能力边界</b> 暂无公开验收数据</span></div></div>
+              <div class="market-item-action"><small>产品材料</small><a href="./apply.html">提交报表样例</a></div>
+            </article>
+
+            <article class="market-repo-item" data-market-item data-market-type="solution" data-market-status="reference" data-market-industry="agriculture" data-market-order="12" data-market-title="农技助手：从看见墒情到生成农事任务" data-market-search="S006 农业 农技助手 墒情 苗情 虫情 农业大模型 知识图谱">
+              <div class="market-item-visual is-solution" aria-hidden="true"><b>S</b><span>方案</span></div>
+              <div class="market-item-content"><div class="market-item-kicker"><span>#S006</span><b>平台方案</b><em class="is-reference">内部版本</em></div><h3>农技助手：从看见墒情到生成农事任务</h3><p>汇集传感器、卫星和无人机数据，用农业大模型及专家规则生成灌溉、植保和施肥建议。</p><div class="market-item-labels"><span>农业生产</span><span>农技助手</span><span>知识图谱</span></div><div class="market-item-meta"><span><b>已有证据</b> V1.0内部手册和界面</span><span><b>能力边界</b> 不替代农艺师现场判断</span></div></div>
+              <div class="market-item-action"><small>产品材料</small><a href="./apply.html">申请场景验证</a></div>
+            </article>
+
+            <article class="market-repo-item" id="cases" data-market-item data-market-type="case" data-market-status="completed" data-market-industry="manufacturing" data-market-order="13" data-market-title="冰淇淋工厂：AI质检覆盖14道工序" data-market-search="C001 中国 食品制造 工业视觉质检 缺陷识别 百度">
+              <figure class="market-item-visual is-case"><img src="./assets/case-vision-inspection-v1.jpg" alt="食品包装产线使用机器视觉识别缺陷的场景示意图" loading="lazy" decoding="async"><figcaption>案例</figcaption></figure>
+              <div class="market-item-content"><div class="market-item-kicker"><span>#C001</span><b>验证案例</b><em class="is-completed">官方公开</em></div><h3>冰淇淋工厂：AI质检覆盖14道工序</h3><p>哲元科技使用飞桨EasyDL完成图像采集、缺陷分类与本地部署，机器全天候检查十多种质量缺陷。</p><div class="market-item-labels"><span>食品制造</span><span>机器视觉</span><span>边缘部署</span></div><div class="market-item-meta"><span><b>公开结果</b> 近100件/秒</span><span><b>公开结果</b> 人力成本降低90%</span></div></div>
+              <div class="market-item-action"><small>百度智能云案例</small><a href="https://cloud.baidu.com/aicustomer/zy" target="_blank" rel="noopener noreferrer">查看官方来源 ↗</a></div>
+            </article>
+
+            <article class="market-repo-item" data-market-item data-market-type="case" data-market-status="completed" data-market-industry="service" data-market-order="14" data-market-title="一号互联：大模型降低客服训练与交付成本" data-market-search="C002 中国 企业服务 智能客服 语音 RAG 通义 阿里云">
+              <figure class="market-item-visual is-case"><img src="./assets/case-ai-service-v1.jpg" alt="企业客服团队使用人工智能知识助手的场景示意图" loading="lazy" decoding="async"><figcaption>案例</figcaption></figure>
+              <div class="market-item-content"><div class="market-item-kicker"><span>#C002</span><b>验证案例</b><em class="is-completed">官方公开</em></div><h3>一号互联：大模型降低客服训练与交付成本</h3><p>接入语音大模型和RAG，让客户自行导入文档与知识库，减少传统客服训练和维护工作。</p><div class="market-item-labels"><span>企业服务</span><span>智能客服</span><span>知识检索</span></div><div class="market-item-meta"><span><b>公开结果</b> AI训练师投入减少2/3</span><span><b>公开结果</b> 单客户日总结1000+条</span></div></div>
+              <div class="market-item-action"><small>阿里云案例</small><a href="https://startup.aliyun.com/city/jh/case/1213" target="_blank" rel="noopener noreferrer">查看官方来源 ↗</a></div>
+            </article>
+
+            <article class="market-repo-item" data-market-item data-market-type="case" data-market-status="completed" data-market-industry="commerce" data-market-order="15" data-market-title="Mystore：商品审核从1—2天缩短至1小时内" data-market-search="C003 印度 中小电商 商品运营 图像理解 Google">
+              <figure class="market-item-visual is-case"><img src="./assets/case-retail-ai-v1.jpg" alt="小型电商使用人工智能处理商品图片和目录的场景示意图" loading="lazy" decoding="async"><figcaption>案例</figcaption></figure>
+              <div class="market-item-content"><div class="market-item-kicker"><span>#C003</span><b>验证案例</b><em class="is-completed">官方公开</em></div><h3>Mystore：商品审核从1—2天缩短至1小时内</h3><p>使用Google AI从商品图片生成标题、描述和分类，并自动检查质量及合规要求。</p><div class="market-item-labels"><span>中小电商</span><span>图像理解</span><span>内容生成</span></div><div class="market-item-meta"><span><b>公开结果</b> 审核缩短至1小时内</span><span><b>公开结果</b> 运营效率提升60%—70%</span></div></div>
+              <div class="market-item-action"><small>Google Cloud案例</small><a href="https://cloud.google.com/customers/mystore" target="_blank" rel="noopener noreferrer">查看官方来源 ↗</a></div>
+            </article>
+
+            <article class="market-repo-item" data-market-item data-market-type="case" data-market-status="completed" data-market-industry="software" data-market-order="16" data-market-title="哈啰集团：AI生成代码占比20%" data-market-search="C004 中国 软件研发 AI编程 代码生成 通义灵码 阿里">
+              <figure class="market-item-visual is-case"><img src="./assets/case-ai-coding-v1.jpg" alt="软件研发团队使用人工智能辅助代码评审的场景示意图" loading="lazy" decoding="async"><figcaption>案例</figcaption></figure>
+              <div class="market-item-content"><div class="market-item-kicker"><span>#C004</span><b>验证案例</b><em class="is-completed">官方公开</em></div><h3>哈啰集团：AI生成代码占比20%</h3><p>通过通义灵码专属版辅助代码生成和研发协作，减少重复编码工作。</p><div class="market-item-labels"><span>软件研发</span><span>AI编程</span><span>企业部署</span></div><div class="market-item-meta"><span><b>公开结果</b> AI生成代码占比20%</span><span><b>公开结果</b> 研发效率提升12%</span></div></div>
+              <div class="market-item-action"><small>通义灵码案例</small><a href="https://lingma.aliyun.com/lingma/community/use-cases" target="_blank" rel="noopener noreferrer">查看官方来源 ↗</a></div>
+            </article>
+
+            <article class="market-repo-item" data-market-item data-market-type="case" data-market-status="completed" data-market-industry="agriculture" data-market-order="17" data-market-title="Sharp & Sharp：让50多年种植经验随时可查" data-market-search="C005 美国 家庭农场 知识助手 多模态 OpenAI ChatGPT">
+              <figure class="market-item-visual is-case"><img src="./assets/case-farm-knowledge-v1.jpg" alt="家庭农场使用人工智能整理种植经验和现场记录的场景示意图" loading="lazy" decoding="async"><figcaption>案例</figcaption></figure>
+              <div class="market-item-content"><div class="market-item-kicker"><span>#C005</span><b>验证案例</b><em class="is-completed">官方公开</em></div><h3>Sharp &amp; Sharp：让50多年种植经验随时可查</h3><p>把1971年以来的纸质记录数字化并接入ChatGPT，通过语音和图片辅助现场记录与问答。</p><div class="market-item-labels"><span>家庭农场</span><span>知识检索</span><span>多模态</span></div><div class="market-item-meta"><span><b>公开基础</b> 50多年种植记录</span><span><b>使用方式</b> 语音、图片和现场问答</span></div></div>
+              <div class="market-item-action"><small>OpenAI案例</small><a href="https://openai.com/index/small-business-stories/" target="_blank" rel="noopener noreferrer">查看官方来源 ↗</a></div>
+            </article>
+
+            <article class="market-repo-item" data-market-item data-market-type="case" data-market-status="completed" data-market-industry="management" data-market-order="18" data-market-title="Head Start Homes：管理团队生产力提升30%以上" data-market-search="C006 澳大利亚 小型机构 办公协作 会议总结 Microsoft Copilot">
+              <figure class="market-item-visual is-case"><img src="./assets/case-office-copilot-v1.jpg" alt="小型机构团队使用人工智能整理会议和任务的场景示意图" loading="lazy" decoding="async"><figcaption>案例</figcaption></figure>
+              <div class="market-item-content"><div class="market-item-kicker"><span>#C006</span><b>验证案例</b><em class="is-completed">官方公开</em></div><h3>Head Start Homes：管理团队生产力提升30%以上</h3><p>小团队使用Microsoft 365 Copilot处理会议纪要、任务、招聘和文稿，把更多时间投入客户服务。</p><div class="market-item-labels"><span>小型机构</span><span>办公协作</span><span>任务提取</span></div><div class="market-item-meta"><span><b>公开结果</b> 管理团队生产力提升30%+</span><span><b>企业规模</b> 1—49人</span></div></div>
+              <div class="market-item-action"><small>Microsoft案例</small><a href="https://www.microsoft.com/en/customers/story/21863-head-start-homes-microsoft-365-copilot" target="_blank" rel="noopener noreferrer">查看官方来源 ↗</a></div>
+            </article>
+
+            <article class="market-repo-item" id="resource-market" data-market-item data-market-type="resource" data-market-status="planned" data-market-industry="infrastructure" data-market-order="19" data-market-title="算力对接：按任务和部署方式匹配资源" data-market-search="R001 算力 对接 模型 部署 云端 本地 GPU">
+              <div class="market-item-visual is-resource" aria-hidden="true"><b>R</b><span>资源</span></div>
+              <div class="market-item-content"><div class="market-item-kicker"><span>#R001</span><b>资源服务</b><em class="is-planned">第二阶段</em></div><h3>算力对接：按任务和部署方式匹配资源</h3><p>根据模型类型、部署方式、资源规模和服务区域匹配适合的算力服务。</p><div class="market-item-labels"><span>算力</span><span>云端部署</span><span>本地部署</span></div><div class="market-item-meta"><span><b>当前状态</b> 服务规则规划中</span><span><b>现阶段</b> 可先登记企业需求</span></div></div>
+              <div class="market-item-action"><small>规划中</small><a href="./empowerment.html#compute">查看规划</a></div>
+            </article>
+
+            <article class="market-repo-item" data-market-item data-market-type="resource" data-market-status="planned" data-market-industry="infrastructure" data-market-order="20" data-market-title="数据接口市场：查找可接入的业务数据服务" data-market-search="R002 数据接口 API 数据服务 调用 场景">
+              <div class="market-item-visual is-resource" aria-hidden="true"><b>R</b><span>资源</span></div>
+              <div class="market-item-content"><div class="market-item-kicker"><span>#R002</span><b>资源服务</b><em class="is-planned">第二阶段</em></div><h3>数据接口市场：查找可接入的业务数据服务</h3><p>统一说明可用数据接口、适用场景、调用方式、服务条件和数据边界。</p><div class="market-item-labels"><span>数据API</span><span>接口接入</span><span>数据边界</span></div><div class="market-item-meta"><span><b>当前状态</b> 供需登记中</span><span><b>现阶段</b> 可提交接口需求</span></div></div>
+              <div class="market-item-action"><small>规划中</small><a href="./apply.html">登记接口需求</a></div>
+            </article>
+
+            <article class="market-repo-item" data-market-item data-market-type="resource" data-market-status="planned" data-market-industry="infrastructure" data-market-order="21" data-market-title="模型使用市场：按企业任务查找可用模型" data-market-search="R003 模型市场 大模型 视觉 语音 部署 服务">
+              <div class="market-item-visual is-resource" aria-hidden="true"><b>R</b><span>资源</span></div>
+              <div class="market-item-content"><div class="market-item-kicker"><span>#R003</span><b>资源服务</b><em class="is-planned">第二阶段</em></div><h3>模型使用市场：按企业任务查找可用模型</h3><p>按任务类型、部署方式和使用条件查找大模型、视觉、语音等模型服务。</p><div class="market-item-labels"><span>模型服务</span><span>能力匹配</span><span>部署方式</span></div><div class="market-item-meta"><span><b>当前状态</b> 服务目录规划中</span><span><b>现阶段</b> 可登记模型需求</span></div></div>
+              <div class="market-item-action"><small>规划中</small><a href="./apply.html">登记模型需求</a></div>
+            </article>
+          </div>
+
+          <div class="market-empty" data-market-empty hidden><b>没有找到符合条件的项目</b><span>请清除关键词，或调整项目类型、状态和行业筛选。</span></div>
+          <div class="market-repository-foot"><p><strong>信息说明：</strong>企业需求为匿名化原型数据；平台方案按现有材料标注成熟度，不等同于正式交付业绩；验证案例来自所链接的厂商官方资料，配图为AI场景示意，不是案例企业现场照片。</p><a href="./apply.html">发布一个新需求 →</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div id="siteFooter"></div><script src="./assets/app.js"></script>
+</body>
+</html>

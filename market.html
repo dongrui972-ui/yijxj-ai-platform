@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>免费公开项目｜人工智能+软件产业生态联盟</title>
+  <meta name="description" content="查看首期免费AI共创项目的评选状态、任务进度、公开更新、待处理问题与交付成果。">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231668ff'/%3E%3Cpath d='M14 43 26 17h8L22 43zm20 0 12-26h7L41 43z' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body data-page="market">
+  <div id="siteHeader"></div>
+  <main id="main">
+    <section class="free-public-market" id="public-projects">
+      <div class="page-width">
+        <section class="free-application-bar" aria-label="免费项目申请入口">
+          <div class="free-application-intro"><span><i aria-hidden="true"></i>申请开放中</span><strong>首期10个免费AI共创名额</strong></div>
+          <div class="free-application-capacity" data-application-capacity data-total="10">
+            <div><span>申请进度</span><b><strong data-application-applied>3</strong><i>/</i><em data-application-total>10</em> 个</b><small>剩余 <strong data-application-remaining>7</strong> 个名额</small></div>
+            <progress data-application-progress max="10" value="3">已申请3个，共10个名额</progress>
+          </div>
+          <div class="free-application-actions">
+            <a href="./apply.html">立即申请</a>
+            <details class="free-application-check">
+              <summary>查询进度</summary>
+              <form data-free-application-lookup>
+                <label><span>申请编号</span><input type="text" required placeholder="请输入申请编号" aria-label="申请编号"></label>
+                <button type="submit">查询</button>
+                <p data-free-application-lookup-status aria-live="polite">当前为静态原型，正式上线后将显示对应申请的真实进度。</p>
+              </form>
+            </details>
+          </div>
+        </section>
+
+        <div class="free-project-repository" aria-labelledby="freeProjectTitle">
+          <h1 class="sr-only" id="freeProjectTitle">免费公开项目</h1>
+
+          <div class="market-type-tabs free-project-type-tabs" role="group" aria-label="按项目状态筛选">
+            <button class="is-active" type="button" data-project-filter="all"><span>全部</span><b>3</b></button>
+            <button type="button" data-project-filter="candidate"><span>评选中</span><b>1</b></button>
+            <button type="button" data-project-filter="developing"><span>实施中</span><b>1</b></button>
+            <button type="button" data-project-filter="completed"><span>已完成</span><b>1</b></button>
+          </div>
+
+          <div class="free-project-toolbar">
+            <label class="market-unified-search"><span class="sr-only">搜索免费项目</span><input type="search" data-public-project-search placeholder="搜索项目" aria-label="搜索项目名称、行业或能力"></label>
+            <span>进度按公开任务完成数计算</span>
+            <a href="./supply.html#hall">需求集市</a>
+          </div>
+
+          <div class="free-project-list" data-public-project-list aria-live="polite">
+            <a class="free-project-row" href="./project-p001.html" data-public-project data-status="candidate" data-search="P001 生产线 视觉质检 制造业 图像识别 评选 资料核验">
+              <div class="free-project-symbol is-candidate" aria-hidden="true"><b>P1</b><span>评选</span></div>
+              <div class="free-project-row-main">
+                <div class="free-project-row-kicker"><span>#DEMO-P001</span><b>公示评选中</b><em>界面演示</em></div>
+                <h2>生产线视觉质检辅助</h2>
+                <p>用图像识别辅助发现产品外观缺陷，目前正在核验申报资料和可公开范围。</p>
+                <div class="free-project-row-labels"><span>制造业</span><span>视觉识别</span><span>候选项目</span></div>
+                <div class="free-project-latest"><span>最新进展</span><b>需求摘要与公开边界已确认，正在核验样本条件</b></div>
+              </div>
+              <div class="free-project-row-progress">
+                <div><span>资料核验</span><b>40%</b></div>
+                <progress max="100" value="40">40%</progress>
+                <small>2 / 5 项任务完成 · 无阻塞</small>
+                <strong>打开项目 <span aria-hidden="true">→</span></strong>
+              </div>
+            </a>
+
+            <a class="free-project-row" href="./project-detail.html" data-public-project data-status="developing" data-search="P002 企业知识库 客服助手 企业服务 RAG 问答 实施 原型验证">
+              <div class="free-project-symbol is-developing" aria-hidden="true"><b>P2</b><span>实施</span></div>
+              <div class="free-project-row-main">
+                <div class="free-project-row-kicker"><span>#DEMO-P002</span><b>已入选 · 实施中</b><em>界面演示</em></div>
+                <h2>企业知识库与客服助手</h2>
+                <p>把产品资料和常见问题整理成回答可追溯的知识助手，当前正在验证答案与资料出处。</p>
+                <div class="free-project-row-labels"><span>企业服务</span><span>知识库问答</span><span>首期免费项目</span></div>
+                <div class="free-project-latest"><span>最新进展</span><b>基础资料已经导入，核心问答流程可以演示</b></div>
+              </div>
+              <div class="free-project-row-progress">
+                <div><span>原型验证</span><b>45%</b></div>
+                <progress max="100" value="45">45%</progress>
+                <small>5 / 11 项任务完成 · 2项处理中</small>
+                <strong>打开项目 <span aria-hidden="true">→</span></strong>
+              </div>
+            </a>
+
+            <a class="free-project-row" href="./project-p003.html" data-public-project data-status="completed" data-search="P003 商贸 经营分析 零售 数据 库存 已完成 成果公开">
+              <div class="free-project-symbol is-completed" aria-hidden="true"><b>P3</b><span>完成</span></div>
+              <div class="free-project-row-main">
+                <div class="free-project-row-kicker"><span>#DEMO-P003</span><b>已完成 · 成果公开</b><em>界面演示</em></div>
+                <h2>商贸企业经营分析辅助</h2>
+                <p>整理销售和库存数据并生成通俗分析提示，企业已完成演示验收。</p>
+                <div class="free-project-row-labels"><span>商贸零售</span><span>经营分析</span><span>已完成</span></div>
+                <div class="free-project-latest"><span>最终结果</span><b>12项任务全部完成，公开版演示与使用说明已发布</b></div>
+              </div>
+              <div class="free-project-row-progress">
+                <div><span>成果公开</span><b>100%</b></div>
+                <progress max="100" value="100">100%</progress>
+                <small>12 / 12 项任务完成 · 无待办</small>
+                <strong>打开项目 <span aria-hidden="true">→</span></strong>
+              </div>
+            </a>
+          </div>
+
+          <div class="market-empty" data-project-empty hidden><b>没有找到符合条件的项目</b><span>请更换状态或搜索关键词。</span></div>
+        </div>
+
+        <details class="free-project-rules" id="rules">
+          <summary><b>项目公开规则</b><span>为什么入选、任务如何计算、哪些内容不能公开</span></summary>
+          <div>
+            <article><b>共同评选</b><p>支持数量只作参考，最终结论必须说明事实核验和采用依据。</p></article>
+            <article><b>进度可核对</b><p>百分比按已完成任务数计算，每次更新说明完成事项、问题和下一步。</p></article>
+            <article><b>先签约再实施</b><p>入选后先明确数据共享、成果共用和公开边界，再启动项目。</p></article>
+            <article><b>敏感信息保护</b><p>企业原始数据、商业秘密、个人信息、账号凭据和未授权代码不公开。</p></article>
+          </div>
+        </details>
+
+        <p class="free-project-demo-note">当前三份档案用于展示公开项目流程，不代表真实运营项目或实际进度。</p>
+      </div>
+    </section>
+  </main>
+  <div id="siteFooter"></div><script src="./assets/app.js"></script>
+</body>
+</html>
